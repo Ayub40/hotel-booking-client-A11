@@ -1,0 +1,113 @@
+[
+    {
+        "RoomDescription": "Luxury King Suite",
+        "PricePerNight": "$400",
+        "RoomSize": "600 sq ft",
+        "Availability": "Available",
+        "RoomImages": [
+            "https://i.ibb.co/J7591NK/sasha-kaunas-67-s-Oi7m-VIk-unsplash.jpg",
+            "https://i.ibb.co/9tbNkmW/reisetopia-a-I6-Su7-Mu9-Ro-unsplash.jpg"
+        ],
+        "SpecialOffers": "Complimentary breakfast included"
+    },
+    {
+        "RoomDescription": "Family Suite",
+        "PricePerNight": "$350",
+        "RoomSize": "700 sq ft",
+        "Availability": "Not available",
+        "RoomImages": [
+            "https://i.ibb.co/9tbNkmW/reisetopia-a-I6-Su7-Mu9-Ro-unsplash.jpg",
+            "https://i.ibb.co/chMYzk2/lotus-design-n-print-ghh-DWu-GK9-QY-unsplash.jpg"
+        ],
+        "SpecialOffers": "Kids stay free"
+    },
+    {
+        "RoomDescription": "Executive Room",
+        "PricePerNight": "$250",
+        "RoomSize": "400 sq ft",
+        "Availability": "Available",
+        "RoomImages": [
+            "https://i.ibb.co/3kH007p/adam-winger-VGs8z60y-T2c-unsplash.jpg",
+            "https://i.ibb.co/X8Zxcjm/patrick-robert-doyle-p-Z6-W7-Huu-Y6w-unsplash-1.jpg"
+        ],
+        "SpecialOffers": ""
+    },
+    {
+        "RoomDescription": "Standard Queen Room",
+        "PricePerNight": "$200",
+        "RoomSize": "350 sq ft",
+        "Availability": "Not available",
+        "RoomImages": [
+            "https://i.ibb.co/DVmLfg1/roberto-nickson-emqn-SQw-QQDo-unsplash.jpg",
+            "https://i.ibb.co/2sTpbBq/dad-hotel-P6-B7y6-Gnyzw-unsplash.jpg"
+        ],
+        "SpecialOffers": "10% off for bookings made 30 days in advance"
+    },
+    {
+        "RoomDescription": "Deluxe Twin Room",
+        "PricePerNight": "$180",
+        "RoomSize": "320 sq ft",
+        "Availability": "Available",
+        "RoomImages": [
+            "https://i.ibb.co/QQ4K3yF/abdelkader-kherbouche-KRRB1-MJFVp-I-unsplash.jpg",
+            "https://i.ibb.co/4p26QwS/point3d-commercial-imaging-ltd-DLz-YCk-Mkj-BQ-unsplash.jpg"
+        ],
+        "SpecialOffers": ""
+    },
+    {
+        "RoomDescription": "Penthouse Suite",
+        "PricePerNight": "$800",
+        "RoomSize": "1000 sq ft",
+        "Availability": "Not available",
+        "RoomImages": [
+            "https://i.ibb.co/PrsS6nD/reisetopia-Y7-Wf-Cuz5tn0-unsplash.jpg",
+            "https://i.ibb.co/T1hXhqc/rod-long-2-P-ifaet-Dm0-unsplash.jpg"
+        ],
+        "SpecialOffers": "Complimentary champagne upon arrival"
+    },
+    {
+        "RoomDescription": "Economy Single Room",
+        "PricePerNight": "$100",
+        "RoomSize": "200 sq ft",
+        "Availability": "Not available",
+        "RoomImages": [
+            "https://i.ibb.co/z54RsWm/chastity-cortijo-R-w5-Q-4-Mqm0-unsplash.jpg",
+            "https://i.ibb.co/DQmJ0cD/alexandre-chambon-aap-Semzfs-Ok-unsplash.jpg"
+            
+        ],
+        "SpecialOffers": ""
+    },
+    {
+        "RoomDescription": "Beachfront Villa",
+        "PricePerNight": "$1200",
+        "RoomSize": "1500 sq ft",
+        "Availability": "Available",
+        "RoomImages": [
+            "https://i.ibb.co/4p26QwS/point3d-commercial-imaging-ltd-DLz-YCk-Mkj-BQ-unsplash.jpg",
+            "https://i.ibb.co/3kH007p/adam-winger-VGs8z60y-T2c-unsplash.jpg"
+        ],
+        "SpecialOffers": "Private butler service included"
+    },
+    {
+        "RoomDescription": "Honeymoon Suite",
+        "PricePerNight": "$600",
+        "RoomSize": "800 sq ft",
+        "Availability": "Available",
+        "RoomImages": [
+            "https://i.ibb.co/2sTpbBq/dad-hotel-P6-B7y6-Gnyzw-unsplash.jpg",
+            "https://i.ibb.co/9tbNkmW/reisetopia-a-I6-Su7-Mu9-Ro-unsplash.jpg"
+        ],
+        "SpecialOffers": "Rose petal turndown service"
+    },
+    {
+        "RoomDescription": "Mountain View Chalet",
+        "PricePerNight": "$500",
+        "RoomSize": "900 sq ft",
+        "Availability": "Available",
+        "RoomImages": [
+            "https://i.ibb.co/X8Zxcjm/patrick-robert-doyle-p-Z6-W7-Huu-Y6w-unsplash-1.jpg",
+            "https://i.ibb.co/3kH007p/adam-winger-VGs8z60y-T2c-unsplash.jpg"
+        ],
+        "SpecialOffers": ""
+    }
+]

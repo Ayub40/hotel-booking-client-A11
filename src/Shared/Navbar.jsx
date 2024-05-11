@@ -1,9 +1,17 @@
+import { useContext } from "react";
 import { Link, NavLink } from "react-router-dom";
+import { AuthContext } from "../Context/AuthProvider";
 
 
 const Navbar = () => {
+    // const { user, logOut } = useContext(AuthContext);
+    const { user, logOut } = useContext(AuthContext);
 
-
+    const handleSignOut = () => {
+        logOut()
+            .then()
+            .catch()
+    }
 
 
     const navLinks = <>
@@ -30,7 +38,7 @@ const Navbar = () => {
                         {navLinks}
                     </ul>
                 </div>
-                <a className="btn btn-ghost  lg:text-xl">AK-ART</a>
+                <a className="btn btn-ghost  lg:text-xl">StayHaven</a>
             </div>
             <div className="navbar-center hidden lg:flex mr-10">
                 <ul className="menu menu-horizontal px-1 gap-1">
@@ -39,15 +47,15 @@ const Navbar = () => {
             </div>
 
             <div className="navbar-end gap-1">
-                {/* <div className="tooltip tooltip-bottom" data-tip={user?.displayName}>
+                <div className="tooltip tooltip-bottom" data-tip={user?.displayName}>
                     <button className="btn btn-circle">
                         <div className="w-8 rounded-full">
                             <img className="rounded-full" src={user?.photoURL || "https://i.ibb.co/z6TYbrc/user.png"} />
                         </div>
                     </button>
-                </div> */}
+                </div>
 
-                {/* {
+                {
                     user ?
                         <button onClick={handleSignOut} className="btn btn-outline ml-2 md:px-12 mb-2">Logged Out</button>
                         :
@@ -57,7 +65,7 @@ const Navbar = () => {
                             </Link>
                             <Link to='/register'><button className="sm:btn btn-outline ml-2 px-12 mb-2">Register</button></Link>
                         </div>
-                } */}
+                }
 
             </div>
         </div>

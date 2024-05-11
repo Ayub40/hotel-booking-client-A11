@@ -1,12 +1,15 @@
-import Navbar from "../Shared/Navbar";
+
 import Banner from "./Banner";
+import Newsletter from "./Newsletter ";
+import Room from "./Room";
 
 
 const Home = () => {
     return (
         <div>
-            <Navbar></Navbar>
             <Banner></Banner>
+            <Newsletter></Newsletter>
+            <Room></Room>
         </div>
     );
 };
