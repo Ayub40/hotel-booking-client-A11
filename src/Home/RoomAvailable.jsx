@@ -1,7 +1,8 @@
 import { Link } from "react-router-dom";
 
 
-const RoomCard = ({ room, rooms, setRooms }) => {
+const RoomAvailable = ({ room }) => {
+
 
     const { _id, RoomDescription, RoomImages, PricePerNight } = room;
 
@@ -9,11 +10,9 @@ const RoomCard = ({ room, rooms, setRooms }) => {
     return (
         <div className="card w-96 bg-base-100 shadow-xl">
             <figure className="px-10 pt-10">
-                <div className="flex gap-3 h-3/4">
-                    <Link to={`/roomdetail/${_id}`}><button><img src={RoomImages[0]} alt="Shoes" className="rounded-xl w-[600px] " /></button></Link>
-
-                    <Link to={`/roomdetail/${_id}`}><img src={RoomImages[1]} alt="Shoes" className="rounded-xl w-[600px]" /></Link>
-
+                <div className="flex gap-3">
+                    <Link to={`/roomdetail/${_id}`}><img src={RoomImages[0]} alt="Shoes" className="rounded-xl w-1/2" /></Link>
+                    <Link to={`/roomdetail/${_id}`}><img src={RoomImages[1]} alt="Shoes" className="rounded-xl w-1/2" /></Link>
                 </div>
             </figure>
             <div className="card-body">
@@ -29,4 +28,4 @@ const RoomCard = ({ room, rooms, setRooms }) => {
     );
 };
 
-export default RoomCard;
+export default RoomAvailable;

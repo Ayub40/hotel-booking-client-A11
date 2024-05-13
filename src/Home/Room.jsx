@@ -2,16 +2,25 @@ import { data } from "autoprefixer";
 import { useEffect } from "react";
 import { useState } from "react";
 import RoomCard from "./RoomCard";
+import { useLoaderData } from "react-router-dom";
+
+// import AOS from 'aos';
+// import 'aos/dist/aos.css'; // You can also use <link> for styles
+// // ..
+// AOS.init();
+// import 'animate.css';
 
 
 const Room = () => {
-    const [rooms, setRooms] = useState([])
+    const loaderRooms = useLoaderData();
+    const [rooms, setRooms] = useState(loaderRooms);
 
-    useEffect(() => {
-        fetch('http://localhost:2000/room')
-            .then(res => res.json())
-            .then(data => setRooms(data))
-    }, [])
+
+    // useEffect(() => {
+    //     fetch('http://localhost:2000/room')
+    //         .then(res => res.json())
+    //         .then(data => setRooms(data))
+    // }, [])
 
 
 
@@ -29,6 +38,8 @@ const Room = () => {
                         <RoomCard
                             key={room._id}
                             room={room}
+                            rooms={rooms}
+                            setRooms={setRooms}
                         ></RoomCard>)
                 }
             </div>
