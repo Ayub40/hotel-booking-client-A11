@@ -16,7 +16,7 @@ const Navbar = () => {
 
     const navLinks = <>
         <li><NavLink to="/" className={({ isActive }) => isActive ? 'text-[#23BE0A] font-bold border border-[#23BE0A] ' : 'font-bold'}>Home</NavLink></li>
-        <li><NavLink to="/rooms" className={({ isActive }) => isActive ? 'text-[#23BE0A] font-bold border border-[#23BE0A] ' : 'font-bold'}>Rooms</NavLink></li>
+        <li><NavLink to="/featuresRoom" className={({ isActive }) => isActive ? 'text-[#23BE0A] font-bold border border-[#23BE0A] ' : 'font-bold'}>Rooms</NavLink></li>
         <li><NavLink to="/mybookings" className={({ isActive }) => isActive ? 'text-[#23BE0A] font-bold border border-[#23BE0A] ' : 'font-bold'}>My Bookings</NavLink></li>
         <li><NavLink to='/about' className={({ isActive }) => isActive ? 'text-[#23BE0A] font-bold border border-[#23BE0A] ' : 'font-bold'}>About Us</NavLink></li>
         <li><NavLink to='/contact' className={({ isActive }) => isActive ? 'text-[#23BE0A] font-bold border border-[#23BE0A] ' : 'font-bold'}>Contact Us</NavLink></li>

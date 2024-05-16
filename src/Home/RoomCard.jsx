@@ -19,11 +19,11 @@ const RoomCard = ({ room, rooms, setRooms }) => {
             <div className="card-body">
                 <h2 className="card-title">{RoomDescription}</h2>
                 <p className="text-[#FF3811] font-semibold text-xl">Price: ${PricePerNight}</p>
-                <div className="card-actions">
+                {/* <div className="card-actions">
                     <Link to={`/roomdetail/${_id}`}>
                         <button className="btn btn-primary">Book Now</button>
                     </Link>
-                </div>
+                </div> */}
             </div>
         </div>
     );
